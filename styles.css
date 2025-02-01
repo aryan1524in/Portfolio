@@ -338,3 +338,33 @@ img {
   }
 }
 
+.projectbox{
+  background-color: beige;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  box-shadow: 2px 2px 3px black;
+  margin: 10px;
+  border-radius: 10px;
+}
+button{
+  padding: 20px;
+  border-radius: 40px;
+  width: 150px;
+  box-shadow: 2px 2px 3px black;
+  /* grid-template-columns: 500px 440px;
+  align-items: center;
+  column-gap: 8rem;
+  /* padding-top: 2rem; */
+  /* margin-inline: auto;  */
+
+}
+
+.projectbutton{
+  margin-left: 800px;
+}
+button:hover{
+color: white;
+background-color: black;
+cursor: pointer;
+}
