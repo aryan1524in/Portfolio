@@ -363,7 +363,7 @@ button{
 }
 
 .projectbutton{
-  margin-left: 800px;
+  margin-left: 50%;
 }
 button:hover{
 color: white;
