@@ -428,3 +428,64 @@ h1.project-title {
 .project-link:hover {
   background: #75a7dc;
 }
+
+/*=============== EXPERIENCE SECTION STYLES ===============*/
+.experience__container {
+    padding-top: 2rem;
+    row-gap: 3rem;
+}
+
+.experience__item {
+    background-color: var(--container-color);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 16px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px hsla(var(--hue), 90%, 30%, 0.2);
+}
+
+.experience__role {
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+}
+
+.experience__company {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+}
+
+.experience__duration {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    margin-bottom: 1rem;
+}
+
+.experience__description {
+    list-style: disc;
+    margin-left: 1.25rem;
+    color: var(--text-color);
+}
+
+.experience__description li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments for experience section */
+@media screen and (min-width: 768px) {
+    .experience__container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .experience__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
